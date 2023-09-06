@@ -1,0 +1,189 @@
+.h1-baslik {
+    color: rgb(255, 0, 0);
+}
+
+.h2-baslik {
+    color: rgb(252, 0, 0);
+}
+
+.h3-baslik {
+    color: rgb(252, 0, 0);
+}
+
+.h4-baslik {
+    color: rgb(236, 3, 3);
+}
+
+.baslik:hover{
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    list-style-position: inside;
+    font-family: sans-serif;
+}
+
+.button {
+    transition-duration: 0.4s;
+    color: red;
+}
+
+.button:hover {
+    background-color: red;
+    /* Green */
+    color: white;
+}
+
+.btn-center{
+    margin-left: 125px;
+    margin-bottom: 30px;
+    border: 0px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.box-1 {
+    font-size: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(43, 2, 63);
+    border-radius: 10px;
+    width: 200px;
+    height: 25px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(255, 230, 230);
+    padding: 15px;
+    box-shadow: 5px 10px 10px 5px rgb(239, 105, 105);
+}
+
+.box-2 {
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(244, 0, 0);
+    border-radius: 20px;
+    width: 1000px;
+    margin: auto;
+    background-color: #fdb0b0;
+}
+
+.border {
+    border-width: 4px;
+    border-color: rgb(42, 96, 103);
+    border-style: solid;
+    box-shadow: 10px;
+
+}
+
+.div-2 {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    padding: 2px;
+    box-shadow: 10px 10px 20px 10px rgb(239, 105, 105);
+    background-color: rgb(255, 230, 230);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.foto-cerceve-2 {
+    margin: auto;
+    width: 450px;
+    padding: 2px;
+    box-shadow: 10px 10px 20px 10px rgb(253, 194, 194);
+    background-color: #ffeaea;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+a:link,
+a:visited {
+    background-color: rgb(255, 8, 8);
+    color: rgb(233, 233, 233);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(239, 239, 239);
+    color: rgb(255, 18, 18);
+}
+
+
+.foto-radius {
+    border-radius: 20px;
+}
+
+ul {
+    padding: 20px;
+}
+
+ul li {
+    background: rgb(255, 230, 230);
+    color: rgb(212, 7, 7);
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+    border: 0px;
+    border-style: solid;
+    border-block-width: 5px;
+}
+
+.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    font-family: sans-serif;
+    color: red;
+}
+
+.listeler {
+    height: 200px;
+    width: 200px;
+    border: 0px;
+    border-style: solid;
+}
+
+ol.o {
+    list-style-type: lower-greek;
+}
+
+ol {
+    border-left: 5px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+table {
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 5px;
+    border-left: 7px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+
+tr td {
+    display: inline;
+    text-align: left;
+}
+
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    background-color: #fcb8b8;
+    border-radius: 5px;
+}
