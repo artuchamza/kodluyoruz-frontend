@@ -1,0 +1,33 @@
+.bg-yellow {
+    background-color: #FFC017;
+}
+.border-bottom-dark {
+    border-bottom: 1px solid #414141;
+}
+.float-right {
+    float: right;
+}
+.svg-size {
+    height: 25px;
+    width: 25px;
+}
+.svg-size2 {
+    height: 12px;
+    width: 12px;
+}
+.bg-color {
+    background-color: #868686;
+}
+.border-top-dark {
+    border-top: 1px solid rgb(230, 230, 230, 1);
+}
+.text-muted {
+    color: #868686;
+}
+.text-muted:hover{
+    text-decoration: none;
+}
+
+.bg-gray {
+    background-color: gray;
+}
